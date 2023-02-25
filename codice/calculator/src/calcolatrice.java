@@ -45,5 +45,11 @@ public static void main(String[] args) throws IOException {
 			
 			}
 				
+		
+		//aggiunta operazione del logaritmo per la calcolatrice
+		if(operazione.equals("logaritmo")){
+			System.out.println("risulato logaritmo:"+Math.log(num1));
+			System.out.println("risulato logaritmo:"+Math.log(num2));
+			}
 	}
 }
